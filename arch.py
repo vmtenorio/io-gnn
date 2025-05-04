@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import dgl
-import pytorch_lightning as pl
 
 
 class GNNBase(nn.Module):

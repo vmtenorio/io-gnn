@@ -1,0 +1,109 @@
+ml-100k:
+  IOGCN:
+    adj_type: "rating_sim"
+    gmethod: "pctconn"
+    nneigh: -1
+    weighted: false
+    pct_conn: 0.05
+    hid_dim: 64
+    out_dim: 4
+    n_layers: 2
+    lr: 1.0e-4
+    nonlin: "relu"
+
+  IOGAT:
+    adj_type: "rating_sim"
+    gmethod: "kneighbors"
+    nneigh: 10
+    weighted: true
+    pct_conn: -1
+    hid_dim: 128
+    out_dim: 4
+    n_layers: 2
+    num_heads: 8
+    feat_drop: 0.4
+    attn_drop: 0.4
+    lr: 1.0e-5
+    nonlin: "relu"
+
+  IOGCNH:
+    adj_type: "rating_sim"
+    gmethod: "kneighbors"
+    nneigh: 5
+    weighted: true
+    pct_conn: -1.
+    K: 4
+    hid_dim: 64
+    out_dim: 64
+    n_layers: 2
+    lr: 1.0e-5
+    nonlin: "relu"
+
+  IOMLP:
+    hid_dim: 64
+    out_dim: 4
+    n_layers: 2
+    lr: 0.00005
+    nonlin: "relu"
+
+  low_rank:
+    rank: 4
+    lr: 0.01
+
+  nuclear_lr:
+    lr: 0.01
+
+ml-1m:
+  IOGCN:
+    adj_type: "rating_sim"
+    gmethod: "kneighbors"
+    nneigh: 1
+    weighted: false
+    pct_conn: -1.
+    hid_dim: 128
+    out_dim: 8
+    n_layers: 1
+    lr: 0.00001
+    nonlin: "relu"
+
+  IOGAT:
+    adj_type: "rating_sim"
+    gmethod: "kneighbors"
+    nneigh: 10
+    weighted: true
+    pct_conn: -1
+    hid_dim: 128
+    out_dim: 4
+    n_layers: 2
+    num_heads: 4
+    feat_drop: 0.4
+    attn_drop: 0.4
+    lr: 1.0e-4
+    nonlin: "relu"
+    
+  IOGCNH:
+    adj_type: "rating_sim"
+    gmethod: "kneighbors"
+    nneigh: 5
+    weighted: true
+    pct_conn: -1.
+    K: 4
+    hid_dim: 128
+    out_dim: 64
+    n_layers: 2
+    lr: 0.00001
+    nonlin: "relu"
+
+  IOMLP:
+    hid_dim: 128
+    out_dim: 8
+    n_layers: 2
+    lr: 0.00001
+    nonlin: "relu"
+
+  low_rank:
+    rank: 4
+    lr: 0.01
+
+  nuclear_lr:
+    lr: 0.01
