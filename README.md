@@ -1,6 +1,6 @@
 # Exploiting the Structure of Two Graphs with Graph Neural Networks
 
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/liuyuan999/Penalty_Based_Lagrangian_Bilevel_Tianyi_Chen-s_Lab/blob/main/LICENSE) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)  [![Arxiv link](https://img.shields.io/badge/cs.LG-2411.05119-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2411.05119)
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/vmtenorio/io-gnn/blob/main/LICENSE) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)  [![Arxiv link](https://img.shields.io/badge/cs.LG-2411.05119-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2411.05119)
 
 This repository contains the implementation for the paper ["Exploiting the Structure of Two Graphs with Graph Neural Networks"](https://arxiv.org/abs/2411.05119).
 
