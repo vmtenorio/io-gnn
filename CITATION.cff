@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Tenorio"
+  given-names: "Victor M."
+  orcid: "https://orcid.org/0000-0002-0079-7326"
+- family-names: "Marques"
+  given-names: "Antonio G."
+  orcid: "https://orcid.org/0000-0002-4642-7718"
+title: "Exploiting the Structure of Two Graphs with Graph Neural Networks"
+version: 1.0.0
+doi: 10.48550/arXiv.2411.05119
+date-released: 2024-11-07
+url: "https://arxiv.org/abs/2411.05119"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Tenorio"
+    given-names: "Victor M."
+    orcid: "https://orcid.org/0000-0002-0079-7326"
+  - family-names: "Marques"
+    given-names: "Antonio G."
+    orcid: "https://orcid.org/0000-0002-4642-7718"
+  doi: "10.48550/arXiv.2411.05119"
+  journal: "arXiv"
+  title: "Exploiting the Structure of Two Graphs with Graph Neural Networks"
+  year: 2024
